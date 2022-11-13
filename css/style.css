@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+
+/* ユニバーサルセレクタで余白リセット */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
+/* サイト共通コンテナ */
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+input {
+	width:300px;
+	height:30px;
+	font-size: large;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	font-size: large;
+	background-color: aquamarine;
+}
+
+#search_result {
+	font-size:x-large;
+}
